@@ -1,0 +1,9 @@
+---
+microk8s:
+  hosts:
+    bp-k8s01:
+      ansible_host: 192.168.2.214
+    bp-k8s02:
+      ansible_host: 192.168.2.215
+    bp-k8s03:
+      ansible_host: 192.168.2.216
